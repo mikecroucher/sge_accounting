@@ -41,3 +41,20 @@ How many have never run a job more than 40 cores?  This is the number of cores t
 ```
 gawk -F: '$35>=slots[$4] {slots[$4]=$35};END{for(n in slots){if(slots[n]<40){print n, slots[n]}}}' ./accounting | wc
 ```
+
+## ARC 3 Results
+
+```
+number of uniuqe users
+    440     445    3149
+number who have only ever submitted single core jobs
+     70     140     660
+number who have never asked for more than 40 cores?
+    267     532    2637
+number who have never asked for more than 48 cores?
+    291     580    2873
+number who have never asked for more than 72 cores?
+    319     636    3145
+number who have never asked for more than 96 cores?
+    344     686    3399
+```
