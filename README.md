@@ -4,7 +4,7 @@ Seeing what I can see with Leeds HPC accounting logs.
 ## Where are the logs?
 
 * ARC2 - `/services/sge_prod/default/common`
-* ARC3 - 
+* ARC3 - `/services/sge_prod/default/common`
 
 ## Taking a sample of the accounting log
 
