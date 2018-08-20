@@ -16,7 +16,7 @@ cat accounting | awk 'BEGIN {srand()} !/^$/ { if (rand() <= .01) print $0}' > ~/
 
 ## Looking about with AWK
 
-Some work I did with David Jones ages ago used AWK. I base this section from that
+Some work I did with David Jones ages ago used AWK. I base this section from that - https://gist.github.com/mikecroucher/8fee706b0748836ab437214c9fbbe099
 
 Let's see the maximum number of cores ever requested by each user on the system
 
